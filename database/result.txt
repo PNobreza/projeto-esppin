@@ -1,0 +1,33 @@
+  ch   |           hierarquia           
+-------+--------------------------------
+ 10000 | Regiao: Sudeste
+ 11000 |    Estado: Sao Paulo
+ 11100 |       Cidade: Sao Paulo
+ 11900 |       Cidade: Taubaté
+ 12000 |    Estado: Rio de Janeiro
+ 12200 |       Cidade: Rio de Janeiro
+ 12600 |       Cidade: Bauru
+ 13000 |       Cidade: Mangaratiba
+ 20000 | Regiao: Norte
+ 23000 |    Estado: Amazonas
+ 23300 |       Cidade: Manaus
+ 24000 |    Estado: Acre
+ 24100 |       Cidade: Santarem
+ 24400 |       Cidade: Araruta
+ 25000 |    Estado: Pará
+ 25200 |       Cidade: Rio Branco
+ 25500 |       Cidade: Belem
+ 26300 |       Cidade: Ananindeua
+ 30000 | Regiao: Sul
+ 36000 |    Estado: Santa Catarina
+ 36600 |       Cidade: Barriga verde
+ 37000 |    Estado: Paraná
+ 37400 |       Cidade: Rio Verde do Sul
+ 37700 |       Cidade: Curitiba
+ 38000 |    Estado: Rio Grande do Sul
+ 38500 |       Cidade: Brasilinha
+ 38800 |       Cidade: Rio Grande
+(27 rows)
+
+
+

@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Verifica se o parâmetro foi fornecido
+if [ -z "$1" ]; then
+  echo "Por favor, informe o número a partir do qual os scripts devem ser executados."
+  echo "Uso: $0 <número>"
+  exit 1
+fi
+
+# Parâmetro para definir o número de início de execução
+START=$1
+
+# Diretório onde os scripts SQL estão armazenados
+# SQL_DIR="$HOME/seu_diretorio"  # Altere para o diretório real
+SQL_DIR="."
+
+# Executa os scripts SQL a partir do número informado
+for sql_file in "$SQL_DIR"/*.sql; do
+  # Extrai o número inicial do nome do arquivo para comparação
+  number=$(basename "$sql_file" | grep -oE '^[0-9]+')
+
+  # Verifica se o número extraído é maior ou igual ao número inicial fornecido
+##  if [ "$number" -ge "$START" ]; then
+  if [[ "$number" =~ ^[0-9]+$ ]] && [ "$number" -ge "$START" ]; then
+    echo "Executando $sql_file ..."
+    # Execute o arquivo SQL com o comando apropriado, substitua pelo comando desejado
+    # Exemplo usando psql para PostgreSQL
+    PGPASSWORD=pg01 && export PGPASSWORD && psql -h pgsql16pgis3.n2solutions.com.br -U postgres -d db_n2espin_desenv -f "$sql_file"
+  fi
+done

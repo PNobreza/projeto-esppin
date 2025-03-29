@@ -1,0 +1,7 @@
+"id","tipopb","nome","sigla","ativo","inc_data","inc_idusuario","alt_data","alt_idusuario","exc_data","exc_idusuario"
+1,2,"Agropecuária Santa Monica","AGRISANTA","S","2024-10-25 08:22:45.078",1,NULL,NULL,NULL,NULL
+2,1,"Governo Argentino","ARGENTINA","S","2024-10-25 08:23:19.755",1,NULL,NULL,NULL,NULL
+3,1,"Governo Chileno","CHILE","S","2024-10-25 08:23:34.766",1,NULL,NULL,NULL,NULL
+4,1,"Governo Colombiano","COLÔMBIA","S","2024-10-25 08:23:51.278",1,NULL,NULL,NULL,NULL
+5,2,"Casa do Povo","CAPOVO","S","2024-10-25 08:24:19.759",1,NULL,NULL,NULL,NULL
+6,2,"Casa do Cheiroso","CACHEIRO","S","2024-10-25 08:24:19.759",1,"2024-10-28 10:12:59",1,NULL,NULL
